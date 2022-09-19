@@ -1,0 +1,303 @@
+/***** BASE STYLE *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+/*** HEADER ***/
+
+header {
+	height: 110px;
+	border-bottom: #77a466 solid 3px;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*** IMAGE ***/
+
+#hero-image img {
+    height: auto;
+    border-bottom: #77a466 solid 3px;
+}
+
+/*** ABOUT ***/
+
+.about h2 {
+    font-weight: bold;
+    line-height: 23px;
+    color: #77a466;
+    padding: 5px 0;
+    text-align: left;
+}
+
+.about p {
+    padding: 0;
+    line-height: 25px;
+}
+
+.about, .bottom-content {
+    margin: 0 auto;
+	clear: both;
+}
+
+/*** CONTENT ***/
+
+.first-section,
+.second-section,
+.third-section {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.second-section {
+    border-left: #ebebeb solid 1px;
+    border-right: #ebebeb solid 1px;
+}
+
+.first-section h3 {
+    padding: 10px 0;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.second-section h3, .third-section h3 {
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.bottom-content ul {
+    margin: 0; 
+    padding: 0;
+    display: block;
+    line-height: 18px;
+    list-style: none;
+}
+
+.bottom-content .specials li {
+    color: #77a466;
+    line-height: 18px;
+    padding: 10px 0;
+}
+
+.bottom-content p {
+    line-height: 21px;
+}
+
+.third-section p {
+    line-height: 24px;
+}
+
+/*** FOOTER ***/
+
+footer {
+    font-weight: bold;
+    text-transform: uppercase;
+	height: 50px;
+	border-top: #eee solid 1px;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer span {
+    font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 16px;
+}
+
+/*** MENU ***/
+
+.menu h2 {
+    text-align: center;
+    padding-top: 5%;
+    border-bottom: #ebebeb solid 1px;
+}
+
+.menu p {
+    list-style: none;
+    line-height: 55px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*** ABOUT ***/
+
+.about-page, .about-chef h2 {
+    padding-top: 15px;
+    text-align: center;
+    color: black;
+}
+
+.about-page img {
+    padding: 5% 0;
+    width: 399px;
+    float: left;
+}
+
+.about-page p {
+    padding: 75px 60px;
+    float: left;
+    width: 678px;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.about-page p span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+/*** LOCATIONS ***/
+
+.locations {
+    width: 1200px;
+    text-align: center;
+}
+
+.locations h2 {
+    padding-top: 15px;
+    text-align: center;
+    color: black;
+}
+
+.location-photos img {
+    width: 540px;
+    float: left;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.location-content h3, .location-content p {
+    width: 540px;
+    float: left;
+    font-size: 16px;
+    padding: 0 20px 10px 20px;
+    margin: 0 10px;
+    line-height: 30px;
+}
+
+/*** GALLERY ***/
+
+.gallery img {
+    width: 360px;
+    float: left;
+    padding: 15px 20px;
+}
+
+/*** REVIEWS ***/
+
+.reviews h2 {
+    padding-top: 15px;
+    text-align: center;
+    color: black;
+}
+
+.reviews p {
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    border-top: #ebebeb solid 1px;
+    border-bottom: #ebebeb solid 1px;
+    margin: 70px auto;
+
+}
+
+.reviews p span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+/** CONTACT **/
+
+.contact-us h2 {
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+.contact-us img {
+    width: 798px;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.contact-us p {
+    float: left;
+    font-size: 24px;
+    line-height: 60px;
+    padding-top: 180px;
+}
+

@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "css"
+		},
+		{
+			"path": "img"
+		},
+		{
+			"path": "menu"
+		},
+		{
+			"path": "about"
+		},
+		{
+			"path": "locations"
+		},
+		{
+			"path": "gallery"
+		},
+		{
+			"path": "reviews"
+		},
+		{
+			"path": "contact"
+		}
+	]
+}
